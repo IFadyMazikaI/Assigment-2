@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FitCore Gym</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css/index.css" />
+</head>
+<body>
+  
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h2>Transform Your Body at FitCore Gym</h2>
+        <p>
+          Join our premium fitness facility with state-of-the-art equipment,
+          expert trainers, and a supportive community dedicated to your success.
+        </p>
+        <p class="hero-cta">
+          <a class="btn primary" href="#join">Start Your Journey</a>
+          <a class="btn ghost" href="#why">Learn More</a>
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img src="hero-section-img.png" alt="modern gym interior with equipment" />
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="why container">
+    <h3>Why Choose FitCore Gym</h3>
+    <p>
+      We provide everything you need to achieve your fitness goals in a
+      welcoming and professional environment.
+    </p>
+    <div class="features">
+      <article>
+        <div class="feature-icon icon-blue"></div>
+        <h4>Premium Equipment</h4>
+        <p>Access to the latest fitness equipment from top brands.</p>
+      </article>
+      <article>
+        <div class="feature-icon icon-green"></div>
+        <h4>Expert Trainers</h4>
+        <p>Certified personal trainers with years of experience.</p>
+      </article>
+      <article>
+        <div class="feature-icon icon-purple"></div>
+        <h4>Flexible Hours</h4>
+        <p>Open 24/7 to fit your schedule.</p>
+      </article>
+    </div>
+    <div class="more">
+      <div class="more-image">
+        <img src="why-choose-us.png" alt="members working out" />
+      </div>
+      <div class="more-content">
+        <h3 class="more-title">More Than Just a Gym</h3>
+        <div class="more-list-wrap">
+          <div class="more-row">
+            <div class="bar"></div>
+            <div class="more-item">
+              <h4>Group Classes</h4>
+              <p>Join energizing group fitness classes led by certified instructors</p>
+            </div>
+          </div>
+          <div class="more-row">
+            <div class="bar"></div>
+            <div class="more-item">
+              <h4>Nutrition Guidance</h4>
+              <p>Get expert advice on meal planning and nutrition to complement your workouts</p>
+            </div>
+          </div>
+          <div class="more-row">
+            <div class="bar"></div>
+            <div class="more-item">
+              <h4>Recovery Zone</h4>
+              <p>Dedicated space for stretching, yoga, and recovery with specialized equipment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="reviews" class="reviews container">
+    <h3>What Our Members Say</h3>
+    <p>Join thousands of satisfied members who have transformed their lives at FitCore</p>
+
+    <div class="testimonials">
+    <div class="testimonial card-blue">
+  <img class="avatar" src="avatar-1.jpg" alt="David Martinez" />
+        <div class="test-body">
+          <h4>David Martinez</h4>
+          <p class="muted">Lost 35 lbs in 5 months</p>
+          <blockquote>"FitCore completely changed my life. The trainers are amazing and the community is so supportive."</blockquote>
+        </div>
+      </div>
+
+    <div class="testimonial card-green">
+  <img class="avatar" src="avatar-2.jpg" alt="Mike Chen" />
+        <div class="test-body">
+          <h4>Mike Chen</h4>
+          <p class="muted">Gained 15 lbs muscle</p>
+          <blockquote>"The equipment is top-notch and always clean. Being open 24/7 means I can work out whenever it fits my schedule."</blockquote>
+        </div>
+      </div>
+
+    <div class="testimonial card-purple">
+  <img class="avatar" src="avatar-3.jpg" alt="James Rodriguez" />
+        <div class="test-body">
+          <h4>James Rodriguez</h4>
+          <p class="muted">Marathon finisher</p>
+          <blockquote>"The personal training sessions helped me train for my first marathon."</blockquote>
+        </div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+    <ul class="stats">
+      <li><strong>2500+</strong> Active Members</li>
+      <li><strong>15+</strong> Expert Trainers</li>
+      <li><strong>50+</strong> Group Classes</li>
+      <li><strong>24/7</strong> Access Hours</li>
+    </ul>
+  </section>
+
+  
+  <section id="join" class="join container">
+    <h3>Ready to Start Your Fitness Journey?</h3>
+    <p>Join FitCore today and get access to premium facilities, expert guidance, and a community that supports your goals.</p>
+
+    <div class="join-wrap">
+      <div class="join-info">
+        <h4>Join FitCore</h4>
+        <p>Transform your body and mind at our premium fitness facility.</p>
+      </div>
+
+      <form class="join-form" action="#" method="post">
+        <div class="form-row">
+          <label>First Name
+            <input type="text" name="first" required placeholder="Enter your first name" />
+          </label>
+          <label>Last Name
+            <input type="text" name="last" required placeholder="Enter your last name" />
+          </label>
+        </div>
+        <label>Email Address
+          <input type="email" name="email" required placeholder="your.email@example.com" />
+        </label>
+        <label>Phone Number
+          <input type="tel" name="phone" placeholder="(555) 123-4567" />
+        </label>
+        <label>Membership Type
+          <select name="membership">
+            <option>Basic Membership - $29/month</option>
+            <option>Premium Membership - $49/month</option>
+            <option>Pro Membership - $79/month</option>
+          </select>
+        </label>
+        <label>Fitness Goals
+          <textarea name="goals" placeholder="Tell us about your fitness goals and what you hope to achieve"></textarea>
+        </label>
+        <p><button class="btn primary" type="submit">Join FitCore Today</button></p>
+      </form>
+
+      <div class="clear"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>FitCore</h4>
+        <p>Transform your body and mind at our premium fitness facility. Join thousands of members who have achieved their fitness goals.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#join">Membership Form</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Info</h4>
+        <p>Address 123 Fitness Street, Downtown City</p>
+        <p>Phone (555) 123-4567</p>
+        <p>Hours Open 24/7</p>
+      </div>
+    </div>
+    <div class="container">
+      <p class="copyright">© 2025 FitCore Gym. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
